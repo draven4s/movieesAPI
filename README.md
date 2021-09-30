@@ -1,5 +1,5 @@
 # The backend movies API.  
-This project uses EntityFramework and MYSQL to save data. So you need to host a MYSQL database if you want to run it. SQL file is attached in the repository.
+This project uses EntityFramework and MYSQL to save data. So you need to host a MYSQL database if you want to run it. SQL file is attached in the repository. The connection string can be found in /Contexts/MovieDbContext.cs
 
 ## What it can do already:
   1. Get's the data from external API, if the data already doesn't exist in the database.
